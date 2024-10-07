@@ -1,0 +1,246 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: DM Sans, sans-serif;
+            min-height: 100vh;
+        }
+        nav { 
+          background-color: black; /* Black background */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.5rem 0.5rem;
+          position: relative;
+          z-index: 2;
+      }
+      .logo img {
+        height: 50px; /* Adjust the height as needed */
+    }
+    .nav-links {
+        display: flex;
+        list-style: none;
+    }
+    .nav-links li {
+        margin: 0 15px;
+    }
+    .nav-links a {
+        color: white; /* White text */
+        text-decoration: none;
+        font-size: 16px;
+        padding: 8px 12px; /* Optional padding */
+        transition: color 0.3s ease; /* Smooth color transition */
+    }
+    .nav-links a:hover {
+        color: green; /* Change text color to green on hover */
+    }
+        .hero-section {
+            background-image: url('heroimg_events.87fea314.png');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 100vh;
+        }
+        
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grey-box {
+            background-color: rgb(32,32,32); /* Grey background */
+            width: 80%; /* Set a width for the grey box */
+            height: 500px; /* Set height to auto to fit content */
+            padding-top: 4rem; /* Add some padding */
+            padding-bottom: 4rem;
+            padding-left: 3.5rem;
+            padding-right: 3.5rem;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 10px auto; 
+            position: relative; 
+            z-index: 1;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: white;
+        }
+        
+        .event-image {
+            width: 253px;
+            height: 253px;
+            border-radius: 15px;
+        }
+        
+        .event-text {
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+        
+        /* Past Events Section */
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        .highlight {
+            color: #00FF00;
+        }
+        
+        .events-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            padding: 1rem;
+            box-shadow: 0 0 10px black;
+            transition: box-shadow 0.3s ease;
+          }
+          .container:hover {
+            box-shadow: 0 0 20px 10px #00FF00;
+          }
+          @media (min-width: 640px) {
+            .container {
+              width: 50%;
+            }
+          }
+          
+          @media (min-width: 768px) {
+            .container {
+              width: 33.33%;
+            }
+          }
+          
+          @media (min-width: 1024px) {
+            .container {
+              width: 50%;
+            }
+          }
+          
+          @media (min-width: 1280px) {
+            .container {
+              width: 33.33%;
+            }
+          }
+          
+          .card {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            max-width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'DM Sans', sans-serif;
+          }
+          
+          .image-wrapper {
+            position: relative;
+          }
+          
+          .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 0.5rem;
+          }
+          
+          .content {
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+          }
+          
+          .title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: white;
+            font-family: DM Sans, sans-serif;
+            padding: 0.5rem 1rem;
+            padding-left: 0;
+          }
+          
+          .button {
+            margin-left: auto;
+            background-color: #32CD32;
+            color: black;
+            font-weight: bold;
+            border-radius: 0.5rem;
+            height: 2.25rem;
+            width: 10rem;
+            font-family: 'DM Sans', sans-serif;
+          }
+          
+        .second{
+            background-color: black;
+            height: 2400px;
+        }
+        .footer {
+            background-image: linear-gradient(to top, #32cd32 ,black ); 
+            color: white;
+            padding: 20px;
+          }
+          
+          .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+          }
+          
+          .footer-left {
+            flex: 1;
+            margin-left: 150px;
+          }
+          
+          .footer-right {
+            flex: 1;
+            margin-left: 400px;
+          }
+          
+          .footer-logo {
+            max-width: 100%;
+            height: auto;
+            height: 50px;
+          }
+          
+          .footer-text {
+            margin: 5px 0;
+          }
+          
+          .footer-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+          }
+          
+          .social-links {
+            display: flex;
+            gap: 15px;
+          }
+          
+          .social-icon {
+            width: 30px;
+            height: 30px;
+            fill: #ffffff;
+          }
+          
+          .footer-disclaimer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+          }
+         
